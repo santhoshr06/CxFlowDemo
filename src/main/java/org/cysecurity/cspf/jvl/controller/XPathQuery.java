@@ -35,7 +35,7 @@ public class XPathQuery extends HttpServlet {
             String user=request.getParameter("username");
             String pass=request.getParameter("password");
             
-            //XML Source:
+            XML Source:
             String XML_SOURCE=getServletContext().getRealPath("/WEB-INF/users.xml");
             
             //Parsing XML:
